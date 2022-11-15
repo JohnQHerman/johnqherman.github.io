@@ -25,13 +25,15 @@
     font-weight: bold;
     font-style: italic;
   }
-  
+
   :root{
-    --bg-color: #f8f8ff;
+    --bg-color: #181A1B;
+    --text-color: #fff;
   }
   
   html{
     background-color: var(--bg-color);
+    color: var(--text-color);
   }
   
   * {
@@ -45,7 +47,7 @@
   header, main, section, footer{
     max-width: 80ch;
     margin: 1rem auto;
-    background-color: white;
+    background-color: #181A1B;
     padding: 1rem;
     border-radius: 0.1rem;
   }
