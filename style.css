@@ -40,7 +40,7 @@
 
   html, body{
     color: var(--text-color);
-    background-image: url("media/background.jpg");
+    background-image: url("/media/background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -73,14 +73,13 @@
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 1rem;
     margin: 0.5rem;
     cursor: pointer;
     border-radius: 0.1rem;
-    /* center buttons */
-    display: inline-block;
+    display: inline-table;
     width: 100%;
+
   }
 
   button:hover {
