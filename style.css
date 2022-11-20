@@ -1,5 +1,5 @@
 /*
-  Font
+  import fonts from local folder
 */
 
 @font-face {
@@ -26,29 +26,81 @@
     font-style: italic;
   }
 
+  /*
+    styling
+  */
+
   :root{
-    --bg-color: #181A1B;
     --text-color: #fff;
   }
-  
-  html{
-    background-color: var(--bg-color);
-    color: var(--text-color);
-  }
-  
+
   * {
     font-family: "Atkinson Hyperlegible", monospace;
   }
-  
+
+  html, body{
+    color: var(--text-color);
+    background-image: url("media/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
   body{
     margin: 1.5rem;
   }
   
+  footer{
+    text-align: center;
+  }
+
   header, main, section, footer{
     max-width: 80ch;
     margin: 1rem auto;
-    background-color: #1a1b18;
+    background-color: rgba(40,43,46,0.3);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 0.25rem 0.25rem rgba(40,43,46,0.3);
     padding: 1rem;
     border-radius: 0.1rem;
   }
-  
+
+  /* button styling */
+
+  button {
+    background-color: rgba(40,43,46,0.5);
+    border: none;
+    color: var(--text-color);
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    /* center buttons */
+    display: inline-block;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: rgba(40,43,46,0.7);
+  }
+
+  button:active {
+    background-color: rgba(40,43,46,0.9);
+  }
+
+  /* style the counter to be pretty */
+
+  #counter {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgba(40,43,46,0.5);
+    text-align: center;
+  }
+
+  #mainpara {
+    text-align: center;
+  }
