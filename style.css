@@ -1,124 +1,125 @@
 /* import fonts from local folder */
 @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url("fonts/AtkinsonHyperlegible-Regular.ttf");
-  }
-  
-  @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url("fonts/AtkinsonHyperlegible-Bold.ttf");
-    font-weight: bold;
-  }
-  
-  @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url("fonts/AtkinsonHyperlegible-Italic.ttf");
-    font-style:italic;
-  }
-  
-  @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url("fonts/AtkinsonHyperlegible-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic;
-  }
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/AtkinsonHyperlegible-Regular.ttf");
+}
 
-  /* general styling */
-  * {
-    font-family: "Atkinson Hyperlegible", monospace;
-  }
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/AtkinsonHyperlegible-Bold.ttf");
+  font-weight: bold;
+}
 
-  :root{
-    --text-color: #fff;
-  }
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/AtkinsonHyperlegible-Italic.ttf");
+  font-style:italic;
+}
 
-  html, body{
-    color: var(--text-color);
-  }
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/AtkinsonHyperlegible-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
 
-  body{
-    margin: 1.5rem;
-  }
-  
-  #mainpara, footer{
-    text-align: center;
-  }
+/* general styling */
+* {
+  font-family: "Atkinson Hyperlegible", monospace;
+}
 
-  header, main, section, footer{
-    max-width: 80ch;
-    margin: 1rem auto;
-    background-color: rgba(40,43,46,0.3);
-    backdrop-filter: blur(3px);
-    box-shadow: 0 0 0.25rem 0.25rem rgba(40,43,46,0.3);
-    padding: 1rem;
-    border-radius: 0.1rem;
-  }
+:root{
+  --text-color: #fff;
+}
 
-  /* button styling */
-  button {
-    background-color: rgba(152,52,111,0.3);
-    border: none;
-    padding: 0.5rem;
-    text-align: center;
-    font-size: 1rem;
-    margin: 0.5rem;
-    cursor: pointer;
-    border-radius: 0.1rem;
-    display: inline-table;
-    width: 100%;
-  }
+html, body{
+  color: var(--text-color);
+}
 
-  button:hover {
-    background-color: rgba(152,52,111,0.5);
-  }
+body{
+  margin: 1.5rem;
+}
 
-  button:active {
-    background-color: rgba(152,52,111,0.7);
-  }
+#mainpara, footer{
+  text-align: center;
+}
 
-  #userbutton{
-    width: auto;
-    padding: 0.7rem;
-    display: inline-block;
-  }
+header, main, section, footer{
+  max-width: 80ch;
+  margin: 1rem auto;
+  background-color: rgba(40,43,46,0.3);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 0.25rem 0.25rem rgba(40,43,46,0.3);
+  padding: 1rem;
+  border-radius: 0.1rem;
+}
 
-  /* counter styling */
-  #counter {
-    font-size: 2.2rem;
-    padding: 0.5rem;
-    border: none;
-    background-color: rgba(152,52,111,0.3);
-    text-align: center;
-  }
+/* button styling */
+button {
+  background-color: rgba(152,52,111,0.3);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.1rem;
+  display: inline-table;
+  width: 100%;
+}
 
-  /* json styling */
-  #json {
-    font-family: monospace;
-    font-size: 0.8rem;
-    white-space: pre;
-  }
+button:hover {
+  background-color: rgba(152,52,111,0.5);
+}
+
+button:active {
+  background-color: rgba(152,52,111,0.7);
+}
+
+#userbutton{
+  width: auto;
+  padding: 0.7rem;
+  display: inline-block;
+}
+
+/* counter styling */
+#counter {
+  font-size: 2.2rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgba(152,52,111,0.3);
+  text-align: center;
+}
+
+/* json styling */
+#json {
+  font-family: monospace;
+  font-size: 0.8rem;
+  white-space: pre;
+}
 
 
-  /* user data styling */
-  #fullname {
-    font-weight: bold;
-  }
+/* user data styling */
+#fullname {
+  font-weight: bold;
+}
 
-  #email {
-    font-style: italic;
-  }
+#email {
+  font-style: italic;
+}
 
-  /* table styling */
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
+/* table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-  /* background video */
-  video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
+/* background video */
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
