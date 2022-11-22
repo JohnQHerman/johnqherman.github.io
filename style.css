@@ -79,7 +79,7 @@
   #userbutton{
     width: auto;
     padding: 0.7rem;
-    display: 
+    display: inline-block;
   }
 
   /* counter styling */
