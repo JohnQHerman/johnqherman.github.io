@@ -10,40 +10,46 @@
         <title>John Q. Herman</title>
         <link rel="icon" href="/media/icon.png" type="image/png" />
     </head>
+
     <body>
-        <header>
-        <h1>- John Q. Herman</h1>
-        </header>      
+        <div class="background">
+            <video autoplay muted loop ="media/background.jpg" id="background">
+                <source src="media/background.webm" type="video/webm">
+            </video>
+        </div>
+
+        <header><h1>John Q. Herman 🦝</h1></header>      
+
         <main>
-            <p id="mainpara">-----------------------------------</p>
+            <p id="mainpara">----------------------------------------------------------------------</p>
             <p id="mainpara">Hi! This is the skeleton of what will eventually become my personal website.</p>
             <p id="mainpara">Don't expect much else here until I learn TypeScipt React :)</p>
             <p id="mainpara">-----------------------------------</p>
+
             <h2 id="counter">0</h2>
-            <button onclick="incrementCounter()">Increment</button>
-            <button onclick="resetCounter()">Reset</button>
-            <h1 id="header1">Header 1</h1>
-            <h2 id="header2">Header 2</h2>
-            <h3 id="header3">Header 3</h3>
-            <h4 id="header4">Header 4</h4>
-            <h5 id="header5">Header 5</h5>
-            <p><strong>Bold</strong></p>
-            <p><em>Italic</em></p>
-            <p><strong><em>Bold and Italic</em></strong></p>
-            <s>Strikethrough</s>
-            <blockquote><p>Blockquote</p></blockquote>
-            <ol>
-                <li>First item</li>
-                <li>Second item</li>
-                <li>Third item</li>
-            </ol>
-            <ul>
-                <li>First item</li>
-                <li>Second item</li>
-                <li>Third item</li>
-            </ul>
-            <p><a href="https://twitter.com/sharkobarko">Link</a></p>
+
+            <table id="counterbuttons">
+                <tr>
+                    <td><button onclick="incrementCounter()">Increment</button></td>
+                    <td><button onclick="resetCounter()">Reset</button></td>
+                </tr>
+            </table>
+
+            <button id="userbutton"onclick="getUserSync()">Fetch Random User</button>
+
+            <p></p>
+            
+            <img id="picture"></img>
+            <p id="fullname"></p>
+            <p id="email"></p>
+            <p id="age"></p>
+            <p id="address"></p>
+            <p id="cell"></p>
+            <pre id="json"></pre>
+
         </main>
-        <footer>Build Date: 2022-11-19</footer>
+
+        <footer> Build Date: 2022-11-22</footer>
+        
     </body>
 </html>
