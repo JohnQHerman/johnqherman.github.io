@@ -1,7 +1,8 @@
 import "./App.css";
 import Background from "./background";
+import Counter from "./counter";
+import UserButton from "./fetchuser";
 import Header from "./header";
-import UserButton, { Counter } from "./userbuttons";
 
 function App() {
   return (
@@ -11,18 +12,11 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <Background />
-
       <Header />
-
       <main>
-        <h2 id="counter">0</h2>
-
         <Counter />
-
-        <></>
-
+        <p />
         <UserButton />
-
         <div id="user"></div>
       </main>
 

@@ -74,7 +74,7 @@ button {
   font-size: 1rem;
   margin: 0.5rem;
   cursor: pointer;
-  border-radius: 0.1rem;
+  border-radius: 1rem;
   display: inline-table;
   width: 100%;
   border-radius: 1rem;
@@ -124,11 +124,10 @@ button:active {
 
 /* table styling */
 table {
-  border-collapse: collapse;
-  /* center buttons */
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
+  border-spacing: 0.5rem;
+  table-layout: fixed;
+  
 }
 
 /* background video */
