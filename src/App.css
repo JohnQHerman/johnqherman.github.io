@@ -67,6 +67,7 @@ button {
   border-radius: 0.1rem;
   display: inline-table;
   width: 100%;
+  border-radius: 1rem;
 }
 
 button:hover {
@@ -80,25 +81,27 @@ button:active {
 #userbutton{
   width: auto;
   padding: 0.7rem;
+  border-radius: 1rem;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* counter styling */
 #counter {
   font-size: 2.2rem;
   padding: 0.5rem;
+  border-radius: 1rem;
   border: none;
   background-color: rgba(152,52,111,0.3);
   text-align: center;
 }
 
-/* json styling */
 #json {
   font-family: monospace;
-  font-size: 0.8rem;
-  white-space: pre;
+  text-align: left;
 }
-
 
 /* user data styling */
 #fullname {
@@ -107,6 +110,10 @@ button:active {
 
 #email {
   font-style: italic;
+}
+
+#age {
+  font-size: 1.275rem;
 }
 
 /* table styling */
@@ -122,4 +129,34 @@ video {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+/* crop userimg */
+#userpic {
+  border-radius: 50%;
+}
+
+/* user data styling */
+#userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(152,52,111,0.3);
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+#userinfo > * {
+  margin: 0.1rem;
+}
+
+/* mainpara styling */
+#mainpara {
+  font-size: 1.1rem;
+  font-style: italic;
+  background-color: rgba(152,52,111,0.3);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 1rem;
+  padding: .3rem;
 }
