@@ -1,5 +1,6 @@
 import "./App.css";
 import Background from "./background";
+import Header from "./header";
 import UserButton, { Counter } from "./userbuttons";
 
 function App() {
@@ -11,9 +12,7 @@ function App() {
       </head>
       <Background />
 
-      <header>
-        <h1>john q. herman</h1>
-      </header>
+      <Header />
 
       <main>
         <h2 id="counter">0</h2>
