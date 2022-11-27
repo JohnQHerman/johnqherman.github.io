@@ -90,6 +90,3 @@ function App() {
 }
 
 export default App;
-
-// q: what is the terminal command to get all dependencies in package-lock.json?
-//
