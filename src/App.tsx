@@ -34,9 +34,9 @@ function App() {
             ----------------------------------------------------------------------
           </p>
           <p>
-            Hi! This is the skeleton of what will eventually become my personal
-            website. Don't expect much else here until I learn TypeScipt React
-            :)
+            Hi! This is the skeleton of my personal website. Don't expect much
+            else here until I learn more about and build more with TypeScipt
+            React :)
           </p>
           <p>-----------------------------------</p>
         </div>

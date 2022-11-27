@@ -33,7 +33,7 @@ class UserButton extends React.Component {
                       </h2>
                     </td>
                     <td>
-                      <p id="age">{user.dob.age}</p>
+                      <p id="age">, {user.dob.age}</p>
                     </td>
                   </tr>
                   <p id="email">{user.email}</p>

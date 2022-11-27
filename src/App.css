@@ -144,6 +144,7 @@ video {
   background-color: rgba(152,52,111,0.3);
   border-radius: 1rem;
   padding: .5rem;
+  padding-bottom: 1rem;
 }
 
 #userinfo > * {
