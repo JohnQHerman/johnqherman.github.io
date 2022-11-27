@@ -23,6 +23,11 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "monospace";
+  src: url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+}
+
 /* general styling */
 * {
   font-family: "Atkinson Hyperlegible", monospace;
@@ -47,16 +52,21 @@ body{
 header, main, section, footer{
   max-width: 80ch;
   margin: 1rem auto;
-  background-color: rgba(40,43,46,0.3);
+  background-color: rgba(32, 7, 29, 0.3);
   backdrop-filter: blur(3px);
-  box-shadow: 0 0 0.25rem 0.25rem rgba(40,43,46,0.3);
+  box-shadow: 0 0 0.25rem 0.25rem rgba(32, 7, 29, 0.3);
   padding: 1rem;
   border-radius: 0.1rem;
 }
 
+header{
+  text-align: center;
+}
+
 /* button styling */
 button {
-  background-color: rgba(152,52,111,0.3);
+  background-color: rgba(32, 7, 29, 0.3);
+  box-shadow: 0 0 0.25rem 0.25rem rgba(32, 7, 29, 0.3);
   color: var(--text-color);
   border: none;
   padding: 0.5rem;
@@ -71,14 +81,14 @@ button {
 }
 
 button:hover {
-  background-color: rgba(152,52,111,0.5);
+  background-color: rgba(32, 7, 29, 0.5);
 }
 
 button:active {
-  background-color: rgba(152,52,111,0.7);
+  background-color: rgba(32, 7, 29, 0.7);
 }
 
-#userbutton{
+#userbutton, #jsonbutton{
   width: auto;
   padding: 0.7rem;
   border-radius: 1rem;
@@ -94,13 +104,9 @@ button:active {
   padding: 0.5rem;
   border-radius: 1rem;
   border: none;
-  background-color: rgba(152,52,111,0.3);
+  background-color: rgba(32, 7, 29, 0.3);
+  box-shadow: 0 0 0.25rem 0.25rem rgba(32, 7, 29, 0.3);
   text-align: center;
-}
-
-#json {
-  font-family: monospace;
-  text-align: left;
 }
 
 /* user data styling */
@@ -119,6 +125,9 @@ button:active {
 /* table styling */
 table {
   border-collapse: collapse;
+  /* center buttons */
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
 }
 
@@ -141,7 +150,8 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(152,52,111,0.3);
+  background-color: rgba(32, 7, 29, 0.3);
+  box-shadow: 0 0 0.25rem 0.25rem rgba(32, 7, 29, 0.3);
   border-radius: 1rem;
   padding: .5rem;
   padding-bottom: 1rem;
@@ -155,7 +165,7 @@ video {
 #mainpara {
   font-size: 1.1rem;
   font-style: italic;
-  background-color: rgba(152,52,111,0.3);
+  background-color: rgba(32, 7, 29, 0.3);
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   border-radius: 1rem;
